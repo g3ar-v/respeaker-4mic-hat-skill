@@ -1,4 +1,4 @@
 spidev
 pyusb
 gpiozero
-git+https://github.com/respeaker/pixel_ring.git
+git+https://github.com/g3ar-v/respeaker-4mic-hat-skill.git
