@@ -14,11 +14,11 @@
 
 import time
 
-from mycroft.messagebus.message import Message
-from mycroft.skills.core import MycroftSkill, intent_handler
+from core.messagebus.message import Message
+from core.skills.core import MycroftSkill, intent_handler
 from adapt.intent import IntentBuilder
-from mycroft.util.log import LOG
-from mycroft import intent_file_handler
+from core.util.log import LOG
+from core import intent_file_handler
 
 from pixel_ring import pixel_ring
 from gpiozero import LED
